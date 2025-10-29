@@ -13,7 +13,7 @@ export default function ContactPage() {
             Have a question, a project proposal, or just want to say hello? Fill out the form below, and I'll get back to you as soon as possible.
           </p>
           
-          <form action="http://10.131.108.196:5000/Send" method="POST" className="space-y-6">
+          <form action="https://port-back-chi.vercel.app/Send" method="POST" className="space-y-6">
             <div>
               <label htmlFor="name" className="block text-gray-300 font-semibold mb-2">
                 Full Name
