@@ -1,5 +1,5 @@
 import axios from "axios";
-const Api_Url = "http://10.131.108.196:5000/Java";
+const Api_Url = "https://port-back-hazel.vercel.app/Java";
 async function fetchData() {
     try {
       const response = await axios.get(Api_Url);
