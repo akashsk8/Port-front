@@ -1,5 +1,5 @@
 import React from 'react';
-
+import toast from 'react-hot-toast'
 export default function ContactPage() {
   return (
     <div className="min-h-screen text-white px-4 py-12">
@@ -59,6 +59,7 @@ export default function ContactPage() {
             <div>
               <button
                 type="submit"
+                onClick={()=>{toast.success("Message sent successfully")}}
                 className="w-full bg-gradient-to-r from-purple-600 to-pink-600 text-white font-bold text-lg px-8 py-3 rounded-lg shadow-lg hover:scale-105 hover:shadow-purple-500/50 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-purple-500"
               >
                 Send Message
